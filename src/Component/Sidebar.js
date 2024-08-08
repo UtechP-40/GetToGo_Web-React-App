@@ -9,7 +9,9 @@ export default function Sidebar() {
         <li><a href="/">CAR RENTAL</a></li>
         <li><a href="/">CLIENTS</a></li>
         <li><a href="/">TOURS</a></li>
+        
       </ul>
+      <p className='copyright'>© 2024 React_App. All Rights Reserved.</p>
     </div>
   )
 }
