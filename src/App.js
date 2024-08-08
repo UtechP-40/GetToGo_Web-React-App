@@ -3,6 +3,7 @@ import Navbar from './Component/Navbar';
 import Sidebar from './Component/Sidebar';
 import ImageSlider from './Component/ImageSlider';
 import Banner from './Component/Banner';
+import Mainbody from './Component/Mainbody'
 function App() {
   return (
     <>
@@ -13,9 +14,7 @@ function App() {
      <div className='othercontent'>
       <ImageSlider className="ImageSlider"></ImageSlider>
         <Banner></Banner>
-      <div className='c2.2.3'>
-      
-      </div>
+        <Mainbody></Mainbody>
      </div>
      </div>
     </>

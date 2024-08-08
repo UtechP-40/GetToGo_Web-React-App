@@ -66,7 +66,7 @@
     width: 13%; /* Adjust width as needed */
     color: white;
     background-color: #333333;
-    height: 100vh;
+    height: 100cap;
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: start; /* Ensure items fill the width */
@@ -141,7 +141,7 @@
     width: 100%; 
 }
 #hotel{
-    /* margin-left: 30px; */
+    margin-left: 30px;
     color:#4d4d4d;
     font-size: 1.2rem;
     font-weight: 100;
@@ -158,20 +158,89 @@
     font-weight: 50;
     padding: 20px;    
 }
+#eight #vote{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
 .lastIconCounting{
-    font-size:1rem;
+    font-size:0.2rem;
+    font-weight: 100;
     color: white;
     background-color: #E62E62;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .lastIconCounting:hover{
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
- #eight{
+.mainbody{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color:#E62E62; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-right: -22px;
+}
+.button{
+    /* border: none;
+    color: white;
+    background-color: #E62E62;
+    width: 190px;
+    padding-left: 30px; */
+    
+    height: 70px;
+    padding-right: 40px;
+    margin-Right: -10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-self: center;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-self: center;
 
- }
+    text-decoration: none;
+}
+.left{
+    background-color: white;
+}
+.right{
+   padding-bottom: 0%;
+padding-right: 40px;
+width: 500px;
+display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.right .user1,.user2 p{
+    
+padding: 30px;
+height: 350px;
+margin-bottom: 50px;
+background-image: url("./Component/img/background2.jpg");
+}
+.left p{
+    padding-left: 30px;
+    width: 90%;
+}
+hr{
+    width: 90%;
+}
